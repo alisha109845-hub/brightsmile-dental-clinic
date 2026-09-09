@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function ServiceCard({ service, compact = false, showLearnMore = true }) {
   return (
     <div className="group bg-surface rounded-lg overflow-hidden border border-line/80 hover:shadow-[0_20px_40px_-24px_rgba(16,38,63,0.35)] hover:-translate-y-1 transition-all duration-300">
-      <div className="aspect-[4/3] overflow-hidden">
+      <div className="aspect-4/3 overflow-hidden">
         <img
           src={service.image}
           alt={`${service.name} treatment at BrightSmile Dental Clinic`}

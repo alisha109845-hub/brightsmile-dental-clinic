@@ -9,7 +9,7 @@ import Doctors from './pages/Doctors'
 import Appointment from './pages/Appointment'
 import Contact from './pages/Contact'
 
-function ScrollToTop() {
+function ScrollToTop() {     //This makes the page automatically scroll to top whenever you navigate to a new page.
   const { pathname } = useLocation()
   useEffect(() => {
     window.scrollTo(0, 0)

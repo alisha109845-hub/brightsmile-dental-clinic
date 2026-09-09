@@ -108,7 +108,7 @@ export default function TransformationStories() {
                       </div>
                     </div>
                   </div>
-                </article>
+                </article> 
               )
             })}
           </div>

@@ -6,7 +6,7 @@ export default function DoctorCard({ doctor, compact = false }) {
   if (compact) {
     return (
       <div
-        className="group relative aspect-[3/4] overflow-hidden rounded-lg border border-line/80 bg-surface shadow-[0_8px_20px_-18px_rgba(16,38,63,0.35)] transition-shadow duration-300 hover:shadow-[0_20px_40px_-24px_rgba(16,38,63,0.35)] focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-teal"
+        className="group relative aspect-3/4 overflow-hidden rounded-lg border border-line/80 bg-surface shadow-[0_8px_20px_-18px_rgba(16,38,63,0.35)] transition-shadow duration-300 hover:shadow-[0_20px_40px_-24px_rgba(16,38,63,0.35)] focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-teal"
         role="button"
         tabIndex={0}
         aria-label={`${isOpen ? 'Hide' : 'Show'} details for ${doctor.name}`}

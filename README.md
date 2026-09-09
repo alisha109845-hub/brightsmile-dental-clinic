@@ -1,16 +1,73 @@
-# React + Vite
+# BrightSmile Dental Clinic
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+BrightSmile is a responsive dental clinic website created as a portfolio project. It gives patients a clear way to explore dental services, meet the care team, read patient stories, and request an appointment.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean, responsive design for desktop, tablet, and mobile
+- Multi-page navigation with React Router
+- Reusable components for services, doctors, testimonials, statistics, and calls to action
+- Appointment request form and contact page
+- Scroll reveal animations and scroll-to-top navigation
+- Content-driven service, doctor, and testimonial sections
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Home: clinic introduction, featured services, doctors, testimonials, FAQs, and transformations
+- About: clinic story, values, and facilities
+- Services: available dental treatments
+- Doctors: dentist profiles and specialties
+- Appointment: appointment request form
+- Contact: clinic contact information
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React 19
+- React Router 7
+- Vite 8
+- Tailwind CSS 4
+- Oxlint
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+The development server is usually available at `http://localhost:5173`.
+
+## Available Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the app for production |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run Oxlint |
+
+## Project Structure
+
+```text
+src/
+├── assets/       # Local images and media
+├── components/   # Reusable UI components
+├── data/         # Services, doctors, and testimonials
+├── pages/        # Route-level page components
+├── App.jsx       # Application routes and layout
+└── index.css     # Global styles
+```
+
+## Content Updates
+
+Project content can be updated in the files inside `src/data/`. Page-specific sections are located in `src/pages/`, while shared interface elements are in `src/components/`.
+
+## Deployment
+https://brightsmile-dent.netlify.app/
